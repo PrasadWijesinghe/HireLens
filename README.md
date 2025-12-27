@@ -46,9 +46,20 @@ HireLens is a smart resume screening tool that analyzes CVs against job descript
 
 ## 📦 Dependencies
 
-```txt
+txt
 fastapi==0.126.0
 numpy==2.4.0
 pdfplumber==0.11.8
 scikit_learn==1.8.0
 sentence_transformers==5.2.0
+
+▶️ Getting Started
+1️⃣ Clone the repository
+git clone https://github.com/your-username/hirelens.git
+cd hirelens
+
+2️⃣ Install dependencies
+pip install -r requirements.txt
+
+3️⃣ Run the application
+uvicorn app.main:app --reload
