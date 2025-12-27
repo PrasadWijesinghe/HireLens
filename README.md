@@ -54,6 +54,7 @@ scikit_learn==1.8.0
 sentence_transformers==5.2.0
 
 ▶️ Getting Started
+
 1️⃣ Clone the repository
 git clone https://github.com/your-username/hirelens.git
 cd hirelens
